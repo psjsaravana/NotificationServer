@@ -1,0 +1,30 @@
+{
+  "name": "notification-server",
+  "version": "1.0.0",
+  "description": "server file,for sending notification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psjsaravana/PushNotificationDemo.git"
+  },
+  "author": "Saravanakumar Subramaniam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psjsaravana/PushNotificationDemo/issues"
+  },
+  "homepage": "https://github.com/psjsaravana/PushNotificationDemo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.1",
+    "morgan": "^1.7.0",
+    "node-gcm": "^0.14.3",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0"
+  }
+}
