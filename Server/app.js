@@ -10,6 +10,10 @@ var mongoose = require('mongoose');
 var app = express();
 var port = process.env.PORT || 8001;
 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookieParser());
+
 // configure notification message
 var message = new gcm.Message();
 var sender = new gcm.Sender('AIzaSyDT22fPgIM9maZs-PpdzLW3vL3AN5v92A8');
