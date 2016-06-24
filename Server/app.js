@@ -11,7 +11,7 @@ var app = express();
 var port = process.env.PORT || 8001;
 
 // configure mongodb with model
-mongoose.connect('mongodb://psjsaravana:P@ssw0rd@ds023054.mlab.com:23054/notificationdb');
+mongoose.connect('mongodb://example:example23054@ds023054.mlab.com:23054/notificationdb');
 var tokenSchema = new mongoose.Schema({
     token: String
 });
