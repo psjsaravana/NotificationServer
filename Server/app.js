@@ -29,7 +29,7 @@ app.get('/sendnotification', function(req, res) {
 
 
 app.use('/', function(req, res) {
-  res.send('Server is Active');
+  res.send('Server is Active!!!!!!!!!!');
 })
 
 app.listen(port, function(error) {
